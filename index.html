@@ -1,21 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
-      crossorigin="anonymous"
-    />
     <title>Welcome to Kokoa Clone</title>
   </head>
   <body>
     <div class="status-bar">
       <div class="status-bar__column">
-        <span>서비스지역 아님</span>
+        <span>No Service</span>
         <i class="fas fa-wifi"></i>
       </div>
       <div class="status-bar__column">
@@ -23,23 +17,28 @@
       </div>
       <div class="status-bar__column">
         <span>110%</span>
-        <i class="fas fa-battery-full"></i>
+        <i class="fas fa-battery-full fa-lg"></i>
         <i class="fas fa-bolt"></i>
       </div>
     </div>
 
     <header class="welcome-header">
-      <h1 class="welcome-header__title">환영합니다! 코코아톡 입니다!</h1>
+      <h1 class="welcome-header__title">Welcome to Kokoa Clone</h1>
       <p class="welcome-header__text">
-        코코아 계정이 있다면 이메일이나 전화번호로 로그인하세요.
+        If you have a Kokoa Account, log in with your email or phone number.
       </p>
     </header>
 
     <form id="login-form">
-      <input type="text" placeholder="이메일 혹은 전화번호를 적어주세요 !" />
-      <input type="password" placeholder="비밀번호" />
-      <input type="submit" value="로그인" />
-      <a href="#">코코아 계정 또는 암호 찾기</a>
+      <input type="text" placeholder="Email or phone number" />
+      <input type="password" placeholder="Password" />
+      <input type="submit" value="Log In" />
+      <a href="#">Find Kokoa Account or Password</a>
     </form>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
