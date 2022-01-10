@@ -4,12 +4,12 @@
     <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>어서오세요! 카카오톡 입니다 !</title>
+    <title>Welcome to Kokoa Clone</title>
   </head>
   <body>
     <div class="status-bar">
       <div class="status-bar__column">
-        <span>서비스 지역 아님</span>
+        <span>No Service</span>
         <i class="fas fa-wifi"></i>
       </div>
       <div class="status-bar__column">
@@ -23,17 +23,17 @@
     </div>
 
     <header class="welcome-header">
-      <h1 class="welcome-header__title">어서오세요! 카카오톡 입니다 !</h1>
+      <h1 class="welcome-header__title">Welcome to Kokoa Clone</h1>
       <p class="welcome-header__text">
-        코코아 계정이 있다면 이메일이나 전화번호로 로그인하세요.
+        If you have a Kokoa Account, log in with your email or phone number.
       </p>
     </header>
 
-    <form id="login-form">
-      <input type="text" placeholder="이메일 또는 전화 번호" />
-      <input type="password" placeholder="비밀번호" />
-      <input type="submit" value="로그인" />
-      <a href="#">코코아 계정 또는 암호 찾기</a>
+    <form action="friends.html" method="get" id="login-form">
+      <input name="username" type="text" placeholder="Email or phone number" />
+      <input name="password" type="password" placeholder="Password" />
+      <input type="submit" value="Log In" />
+      <a href="#">Find Kokoa Account or Password</a>
     </form>
 
     <script
