@@ -3,6 +3,10 @@
 @import "variables.css";
 @import "status-bar.css";
 @import "login.css";
+@import "nav-bar.css";
+@import "screen-header.css";
+@import "friends.css";
+@import "user-component.css";
 
 body {
   font-family: "Open Sans", sans-serif;
