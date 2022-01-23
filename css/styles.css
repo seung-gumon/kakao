@@ -50,3 +50,7 @@ body {
 #login-form input:focus {
   border-color: var(--yellow);
 }
+
+.main-screen {
+  padding: 0px var(--horizontal-space);
+}
