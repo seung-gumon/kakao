@@ -1,2 +1,3 @@
-# kakao
-HTML CSS 수업용자료
+# Kokoa Clone 2020 Update
+
+HTML & CSS are so much fun!
